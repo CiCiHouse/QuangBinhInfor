@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Introduce Quang Binh</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--BS3-->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!--icon link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  body{  font-family: 'Roboto', sans-serif,'Josefin Sans', sans-serif,Georgia, 'Times New Roman', Times, serif;}
+  
+  .affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+  
+  .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+a { color: rgb(20, 11, 66);}
+
+.login-form {
+  /* The image used */
+  background-image: url("pic/theme/tuyen\ hoa.jpg");
+
+  min-height: 80rem;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  margin: 4rem ;
+  max-width: 50rem;
+  padding: 0 4rem 4rem 4rem;
+  background-color: rgba(206, 222, 241, 0.575);
+}
+
+.container p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f8f8f8d7;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #3c63b6;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+</style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!--top wanning-->
+  <div class="alert alert-info" style="width:100%;">
+    <strong>Info!</strong> You should 
+    <a href="#demo" data-toggle="collapse" class="alert-link">read this message</a>.
+      
+    <div id="demo" class="collapse"> 
+        - To staunch the spread of COVID-19,
+         Vietnam is only allowing entry to those foreign experts,
+         and those travelling for official or diplomatic purposes,
+         who must undergo medical checks and 21-day quarantine at their own cost upon arrival in Vietnam.<br>
+        - All cave tours run only in the dry season. We don’t operate during the rainy season between mid-September and early November.        
+      </div>
+  </div>
+
+<!-- banner-->
+<div class="banner">
+   <nav class=" row navbar navbar-default" style="margin:0px;" 
+   data-spy="affix" data-offset-top="30" id="hide-bar">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" 
+        data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+          <a class="navbar-brand" style="font-family: 'Brush Script MT',
+           cursive;font-size: 40px;" href="index.html">CiCi House's</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="infor-page.html">Introduce</a></li>
+          <li><a href="#Plan your trip">Plan your trip</a></li>
+          <li><a href="#Travel offer">Travel offer</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="signup-page.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="login-page.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+  </nav>
+</div>
+
+<!--Login form-->
+ <div class="login-form">
+    <form  action="/action_page.php" 
+    class="container col-xs-10 col-sm-10 col-md-10">
+      <h1>Login</h1>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      
+      <input type="checkbox"/> 
+      <label for="rememberMe">Remember me</label><br>
+      <a href="#">Forget your password?</a><hr>
+
+      <button type="submit" class="btn">Login</button><br>
+
+      <p> Don't have an account?<a href="#"><b>Register Now!</b></a></p>
+    </form>
+  </div> 
+
+
+
+<hr>
+  <div id="footer">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <form action="/action_page.php">
+          <div class="form-group">
+              <h4>SIGN UP FOR OUR NEWSLETTER</h4>
+              <p>Receive new travel stories from Vietnam once a month in your inbox.</p>
+            <label for="email">Your email</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <button type="submit" class="btn btn-primary">SIGN UP</button>
+        </form>
+    </div>
+
+     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <h4>USEFUL LINKS</h4>
+      <a href="#">Guide tourims</a><br>
+      <a href="#">FAQs</a><br>
+      <a href="#">Sitemap</a><br>
+      <a href="#">Visas for Vietnam</a><br>
+      <a href="#">News & Media</a><br>
+      <a href="#">Industry Resources</a>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <h4>FOLLOW US ON</h4>  
+      <p>Visit our social media pages for more travel inspiration.</p>
+      
+      <div class="link-icon"></div>
+        <a href="https://www.facebook.com/OxalisAdventure" class="fa fa-facebook"></a>
+        <a href="https://www.youtube.com/user/OxalisAdventurTours" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </div>
+  </div>
+
+</body>
+</html>
